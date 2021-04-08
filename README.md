@@ -1,4 +1,4 @@
-# Repository containing pre-trained DeepFRI models (in `*.pb` file format)
+# Repository containing pre-trained DeepFRI models
 
 * model for predicting (n=942) Molecular Function (MF) GO terms: `DeepFRI-GraphConv_MF_model`
 * model for predicting (n=1376) Enzyme Commission (EC) numbers: `DeepFRI-GraphConv_EC_model
