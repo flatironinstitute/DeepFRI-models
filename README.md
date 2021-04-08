@@ -68,7 +68,7 @@ model = tf.keras.models.load_model('./models/DeepFRI-GraphConv_MF_model')
 model.summary()
 
 # alternatively (using tensorflow functions)
-# model = tf.saved\_model.load('./models/DeepFRI-GraphConv\_MF\_model')
+# model = tf.saved_model.load('./models/DeepFRI-GraphConv_MF_model')
 
 # load metadata (GO-terms & GO-names)
 with open("./models/DeepFRI-GraphConv_MF_model_metadata.json") as json_file:
@@ -120,7 +120,7 @@ Score | GO term
 
 
 ### OUTPUT:
-* `residue\_scores (shape=(L, )) - prediction score for each residue`
+* `residue_scores (shape=(L, )) - prediction score for each residue`
 
 ```python
 # extract index of the target GO term (using GO ID) from a list of GO terms
