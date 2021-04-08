@@ -13,7 +13,8 @@ git clone https://github.com/VGligorijevic/DeepFRI-models
 cd DeepFRI-models
 ```
 
-*DeepFRI* is tested to work under Python 3.7
+DeepFRI is tested to work under Python 3.7.
+
 Next, install dependencies:
 ```bash
 pip install tensorflow==2.3.1
