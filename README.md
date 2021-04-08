@@ -53,11 +53,11 @@ SMTDLLSAEDIKKAIGAFTAADSFDHKKFFQMVGLKKKSADDVKKVFHILDKDKDGFIDEDELGSILKGFSSDARDLSAK
 
 
 ## Loading the pretrained model and making predicitons (MF-GO terms)
-* INPUT:
-`A (shape=(1, L, L))` - contact map (10A cutoff, L-protein length)
-`S (shape=(1, L, 26))` - one-hot encoding of sequence (26 - number of residues)
+### INPUT:
+* `A (shape=(1, L, L))` - contact map (10A cutoff, L-protein length)
+* `S (shape=(1, L, 26))` - one-hot encoding of sequence (26 - number of residues)
 
-* OUTPUT:
+### OUTPUT:
 `Preds (shape=(#goterms, ))` - prediction probabilities for each GO term
 
 
@@ -113,16 +113,14 @@ Score | GO term
 
 
 ## Computing Class Acitvation Map
-* INPUT:
-`A (shape=(1, L, L))` - contact map (10A cutoff, L-protein length)
-`S (shape=(1, L, 26))` - one-hot encoding of sequence (26 - number of residues)
-`goidx (shape=None)` - GO term index in the list`
+### INPUT:
+* `A (shape=(1, L, L))` - contact map (10A cutoff, L-protein length)
+* `S (shape=(1, L, 26))` - one-hot encoding of sequence (26 - number of residues)
+* `goidx (shape=None)` - GO term index in the list`
 
 
-* OUTPUT:
-`
-residue\_scores (shape=(L, )) - prediction score for each residue
-`
+### OUTPUT:
+* `residue\_scores (shape=(L, )) - prediction score for each residue`
 
 ```python
 # extract index of the target GO term (using GO ID) from a list of GO terms
