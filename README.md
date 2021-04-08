@@ -58,7 +58,7 @@ SMTDLLSAEDIKKAIGAFTAADSFDHKKFFQMVGLKKKSADDVKKVFHILDKDKDGFIDEDELGSILKGFSSDARDLSAK
 * `S (shape=(1, L, 26))` - one-hot encoding of sequence (26 - number of residues)
 
 ### OUTPUT:
-`Preds (shape=(#goterms, ))` - prediction probabilities for each GO term
+* `Preds (shape=(#goterms, ))` - prediction probabilities for each GO term
 
 
 ```python
