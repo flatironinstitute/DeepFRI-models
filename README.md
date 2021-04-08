@@ -49,7 +49,7 @@ plt.show()
 ```
 SMTDLLSAEDIKKAIGAFTAADSFDHKKFFQMVGLKKKSADDVKKVFHILDKDKDGFIDEDELGSILKGFSSDARDLSAKETKTLMAAGDKDGDGKIGVEEFSTLVAES
 ```
-<img src="figs/cmap_1s3pA.png", width="300" height="300">
+<img src="figs/cmap_1s3pA.png" width="300" height="300">
 
 
 ## Loading the pretrained model and making predicitons (MF-GO terms)
