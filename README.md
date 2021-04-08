@@ -112,7 +112,7 @@ Score | GO term
 ```
 
 
-## Computing Class Acitvation Map
+## Computing Class Activation Map
 ### INPUT:
 * `A (shape=(1, L, L))` - contact map (10A cutoff, L-protein length)
 * `S (shape=(1, L, 26))` - one-hot encoding of sequence (26 - number of residues)
@@ -142,4 +142,4 @@ plt.show()
 
 ### Output:
 
-<img src="figs/saliency.png">
+<img src="figs/saliency.png" width="500" height="400">
